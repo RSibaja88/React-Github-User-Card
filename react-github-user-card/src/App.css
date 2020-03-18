@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Sen&display=swap');
+
+html {
+  background-color: rgb(0, 110, 255);
+}
+
+
+.App {
+  text-align: center;
+  
+  margin-bottom: 0%;
+ 
+}
+
+.TitleHeader {
+  font-family: 'Sen', sans-serif;
+  color: whitesmoke;
+  font-size: 3em;
+  text-align: center;
+  background-color:rgb(0, 110, 255);
+}
+
+.RSPic {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 65%;
+  margin: 5.5%;
+  margin-bottom: 2%;
+}
+
+.CardBox {
+  background-color: rgb(241, 100, 34);
+  width: 30%;
+  height: 10%;
+  color:rgb(0, 64, 148);
+  border-radius: 2.5px;
+  -webkit-border-radius: 2.5px;
+  -moz-border-radius: 2.5px;
+  -ms-border-radius: 2.5px;
+  -o-border-radius: 2.5px;
+  margin: 2%;
+  box-shadow: -10px 10px 20px 5px rgb(0, 64, 148);
+}
+
+.UserCardSect {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: 5% 0;
+  margin-bottom: 2.5%;
+}
+
+.FollowerSect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 0%;
+  /* text-align: center; */
+}
+
+.FCardBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10%;
+  margin-top: 0%;
+  
+}
+
+
+.FollowerCard {
+  background-color: rgb(0, 64, 148);
+  width: 35%;
+  height: 17%;
+  color:  rgb(241, 100, 34);
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 2%;
+  box-shadow: -10px 10px 20px 5px  rgb(0, 23, 53);
+}
+
+.FPic {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 75%;
+  margin: 5.5%;
+  margin-bottom: 2%;
+}
+
+h1 {
+  font-family: 'Sen', sans-serif;
+  font-size: 4.5em;
+}
+
+
+h2 {
+  font-family: 'Sen', sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.5em;
+}
